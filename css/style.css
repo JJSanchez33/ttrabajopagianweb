@@ -63,7 +63,8 @@ body{
     color: var(--colorsegundari);
   }
   .header{
-    width:100%;
+    max-width:100%;
+    width: 1440rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,6 +117,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 }
 /*******baner*/
 .contenedor__main{
@@ -123,23 +125,45 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 5rem;
 }
 .baner{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    width: 100%;
     
-width: 80%;
+    
+
 }
-.img__baner{
+.baner1{
     border: solid 1px red;
-    background-image: url(../img/imgportada/WhatsApp\ Image\ 2024-07-18\ at\ 11.10.35\ \(1\).jpeg);
+    background-image: url(/img/imgportada/WhatsApp\ Image\ 2024-07-24\ at\ 14.17.36\ \(1\).jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 15rem;
-    height: 20rem;
+    width: 50rem;
+    height: 10rem;
+}
+ .baneer2{
+  border: solid 1px red;
+  background-image: url(/img/imgportada/WhatsApp\ Image\ 2024-07-24\ at\ 13.58.52\ \(2\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25rem;
+  height: 10rem;
+
+}
+.banner3{
+  border: solid 1px red;
+  background-image: url(/img/imgportada/WhatsApp\ Image\ 2024-07-24\ at\ 13.58.52\ \(5\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15rem;
+  height: 10rem;
+
 }
  
 
@@ -159,4 +183,23 @@ width: 80%;
 .contenedor__lista p{
     font-size: 1.5rem;
     margin: 0;
+}
+
+.container_product{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  width: 80%;
+  margin-top: 3rem;
+  
+}
+.aside1,
+.aside2,
+.aside3,img{
+width: 25rem;
+max-width: 100%;
+-webkit-box-shadow: 31px 4px 44px -21px rgba(102,102,102,1);
+-moz-box-shadow: 31px 4px 44px -21px rgba(102,102,102,1);
+box-shadow: 31px 4px 44px -21px rgba(102,102,102,1);
+border-radius: 1rem;
 }
